@@ -1,0 +1,24 @@
+.item-wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.item-name{
+    flex-basis: 80%;
+    font-size: larger;
+    letter-spacing: 0.1rem;
+}
+
+.item-quantity{
+    font-size: large;
+    color: coral;
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f5f5f5; 
+    font-weight: bold; 
+    margin: 0 0.5rem; 
+}
+

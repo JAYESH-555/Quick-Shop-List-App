@@ -1,0 +1,25 @@
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.header-text{
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    color: var(--custom-orange);
+}
+
+.header-image-wrapper{
+    margin-top: -1rem;
+    height: 250px;
+    width: 250px;
+}
+
+.header-img{
+    max-width: 100%;
+    max-height: 100%;
+}
