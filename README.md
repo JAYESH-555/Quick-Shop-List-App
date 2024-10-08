@@ -9,6 +9,10 @@ A simple yet interactive shopping list app where users can:
 
 This app is built using React and deployed on Vercel.
 
+# 🖥️ Deployment
+This app is deployed on Vercel.
+Check out the live version here: [Quick ShopList App](https://shopping-list-app-jayesh-555s-projects.vercel.app/)
+
 
 # ✨ Features
 
