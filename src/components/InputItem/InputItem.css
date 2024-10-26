@@ -1,11 +1,11 @@
 .item-input-wrapper > form{
-    width: 350px;
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 .item-input{
-    width: 100%;
+    width: 60%;
     background-color:  #F5F5F5;
     padding: 1rem;
     font-size: large;
@@ -43,4 +43,15 @@
 
 .add-item-btn:hover{
     box-shadow: none;
+}
+
+@media only screen and (max-width:800px) {
+    .item-input {
+        width: 80%;
+    }
+    .item-input-wrapper > form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
