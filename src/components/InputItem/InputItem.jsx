@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 // Utils Imports
 import { showSuccess, showError } from '../../utils/showToasts'
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect } from 'react';
 
 // Context Imports
 import { ShoppingDispatchContext } from '../../providers/ShoppingContext';

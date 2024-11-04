@@ -44,3 +44,19 @@
 .add-item-btn:hover{
     box-shadow: none;
 }
+
+@media (max-width: 768px) {
+    .item-input-wrapper > form {
+        width: 100%;
+        gap: 0.5rem;
+    }
+    .item-input {
+        padding: 0.8rem;
+        font-size: medium;
+    }
+    .add-item-btn {
+        width: auto;
+        padding: 0.6rem 1rem;
+        font-size: small;
+    }
+}

@@ -42,3 +42,15 @@
     background-color: orangered;
     color: white;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .shopping-item-wrapper {
+        max-width: 100%;
+        padding: 0.5rem;
+    }
+    .items-list {
+        padding: 0.8rem;
+        gap: 0.3rem;
+    }
+}

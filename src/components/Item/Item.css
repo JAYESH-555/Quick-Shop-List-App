@@ -22,3 +22,13 @@
     margin: 0 0.5rem; 
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .item-name {
+        font-size: medium;
+    }
+    .item-quantity {
+        font-size: medium;
+    }
+}
+
